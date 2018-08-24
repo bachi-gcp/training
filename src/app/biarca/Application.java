@@ -22,6 +22,15 @@ public class Application {
 		System.out.println("Addition: " + result);
 	}
 	
+        public void testDivision(){
+                int a=200;
+                int b=10;
+                
+                int result = Division.divide(a,b);
+                System.out.println("Division of a,b is: " + result);  
+          }
+
+
 	/**
 	 * Application main method.
 	 * 
@@ -34,5 +43,6 @@ public class Application {
 		
 		/* Test addition of two number  */
 		myApp.testAddition();
+                myApp.testDivision();
 	}
 }
