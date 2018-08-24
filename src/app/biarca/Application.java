@@ -1,6 +1,7 @@
 package app.biarca;
 
 import app.biarca.operations.Addition;
+import app.biarca.operations.Substraction;
 
 /**
  * Application class that is implementing 'Add', 'Substraction',
@@ -22,6 +23,14 @@ public class Application {
 		System.out.println("Addition: " + result);
 	}
 	
+	public void testSubstraction(){
+		int a = 200;
+		int b = 150;
+		int result = Substraction.minus(a, b);
+		System.out.println("Substraction: "+result);
+		
+	}
+	
 	/**
 	 * Application main method.
 	 * 
@@ -34,5 +43,6 @@ public class Application {
 		
 		/* Test addition of two number  */
 		myApp.testAddition();
+		myApp.testSubstraction();
 	}
 }
