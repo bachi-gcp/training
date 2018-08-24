@@ -1,6 +1,8 @@
 package app.biarca;
 
 import app.biarca.operations.Addition;
+import app.biarca.operations.Division;
+import app.biarca.operations.Exponent;
 import app.biarca.operations.Substraction;
 
 /**
@@ -23,7 +25,7 @@ public class Application {
 		System.out.println("Addition: " + result);
 	}
 	
-<<<<<<< HEAD
+
         public void testDivision(){
                 int a=200;
                 int b=10;
@@ -33,7 +35,7 @@ public class Application {
           }
 
 
-=======
+
 	public void testSubstraction(){
 		int a = 200;
 		int b = 150;
@@ -41,8 +43,15 @@ public class Application {
 		System.out.println("Substraction: "+result);
 		
 	}
+	private void testExponent() {
+		int a = 2;
+		int b = 3;
+		int result = Exponent.exp(a, b);
+		System.out.println("Exponent: "+result);
+		
+	}
 	
->>>>>>> fefab56eaae5ae4611953d22027ebb4a68acec1c
+
 	/**
 	 * Application main method.
 	 * 
@@ -55,10 +64,11 @@ public class Application {
 		
 		/* Test addition of two number  */
 		myApp.testAddition();
-<<<<<<< HEAD
-                myApp.testDivision();
-=======
+
+        myApp.testDivision();
+
 		myApp.testSubstraction();
->>>>>>> fefab56eaae5ae4611953d22027ebb4a68acec1c
+		myApp.testExponent();
+
 	}
 }

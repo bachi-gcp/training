@@ -1,4 +1,4 @@
-package Assignment1;
+package app.biarca.operations;
 
 public class Division {
 
