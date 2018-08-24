@@ -43,12 +43,23 @@ public class Application {
 		System.out.println("Substraction: "+result);
 		
 	}
+<<<<<<< Updated upstream
 	private void testExponent() {
 		int a = 2;
 		int b = 3;
 		int result = Exponent.exp(a, b);
 		System.out.println("Exponent: "+result);
 		
+=======
+        /**
+	 * Function for testing Remainder Framework.
+	 */
+	public void testREmainder() {
+		int a=15;
+		int b=2;
+		
+		int result=Remainder.remainder(a, b);
+		System.out.println("Remainder: "+result);
 	}
 	
 
