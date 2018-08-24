@@ -61,7 +61,13 @@ public class Application {
 		int result=Remainder.remainder(a, b);
 		System.out.println("Remainder: "+result);
 	}
-	
+        public void testMultiply(){
+               int a=10;
+               int b=15;
+               int result = Multiplication.multiply(a,b);
+               System.out.println("Multiplication : "+result);
+		
+	}
 
 	/**
 	 * Application main method.
@@ -80,6 +86,7 @@ public class Application {
 
 		myApp.testSubstraction();
 		myApp.testExponent();
+                myApp.testMultiply();
 
 	}
 }
